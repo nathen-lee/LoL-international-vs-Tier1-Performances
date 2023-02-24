@@ -38,3 +38,6 @@ As part of our project, we took several steps to clean and refine the data to ma
 
 ## Univariate Analysis
 <iframe src="assets/univariate_hist.html" width=800 height=600 frameBorder=0></iframe>
+
+## Bivariate Analysis
+<iframe src="assets/bivariate_hist.html" width=800 height=600 frameBorder=0></iframe>
