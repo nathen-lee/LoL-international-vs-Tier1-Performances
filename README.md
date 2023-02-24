@@ -19,7 +19,7 @@ The columns correspond to those statistics:
 
 The question at hand: **Do teams perform differently depending on whether they are playing on a regional stage or on an international stage?**
 
-# Cleaning and EDA
+# Cleaning and EDA (Exploratory Data Analysis)
 ## Data Cleaning 
 As part of our project, we took several steps to clean and refine the data to make it more useful and accessible. Our process involved the following steps:
 
@@ -73,3 +73,27 @@ The histogram presented shows the probability distribution of performance based 
 | Team Aze           |         59.7883 |    140.571 |                  -80.7827  |
 
 To analyze the differences in team performance across regional and international stages, we got the data on only the teams that participated in both stages and created a pivot table. Using team names as the index and their performances in each stage as columns, we calculated the means using 'mean' as the aggregation function. Next, we added a new column by subtracting the mean performance value in the regional column from that in the international column (International vs Regional). This allowed us to compare the differences in the means of the performances for each team between the international and regional stages.
+
+# Assessment of Missingness
+## NMAR Analysis
+## Missingness Dependency
+In this section, we will perform permutation tests on certain columns to determine if the missingness of performance is dependent on a that particular column.
+#### Datacompleteness Column
+Before Permutation:
+<iframe src="assets/dcmissing.html" width=800 height=600 frameBorder=0></iframe>
+
+After Permutation:
+<iframe src="assets/dcmissingperm.html" width=800 height=600 frameBorder=0></iframe>
+
+#### Gametype Column
+Before Permutation:
+<iframe src="assets/gtmissing.html" width=800 height=600 frameBorder=0></iframe>
+
+After Permutation:
+<iframe src="assets/gtmissingperm.html" width=800 height=600 frameBorder=0></iframe>
+
+# Hypothesis
+Null hypothesis: There is no significant difference between the performance of teams on the international stage and their usual performance.
+Alternative hypothesis: The performance of teams on the international stage is worse than their usual performance.
+Test statistic: Mean performance values. We chose this because this hypothesis is one-directional and the variable being measured is continuous.
+Significance level: 0.05.
