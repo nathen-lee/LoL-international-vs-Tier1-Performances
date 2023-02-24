@@ -210,5 +210,5 @@ Using permutation tests, we examined the missingness in the 'performance' column
 - <mark>Alternative hypothesis</mark>: The performance of teams on the international stage is worse than their usual performance.
 - <mark>Test statistic</mark>: Mean performance values. We chose this because this hypothesis is one-directional and the variable being measured is continuous.
 - <mark>Significance level</mark>: 0.05
-
+- <mark>p-value</mark> = 0.02999
 <iframe src="assets/hyptest.html" width=800 height=600 frameBorder=0></iframe>
