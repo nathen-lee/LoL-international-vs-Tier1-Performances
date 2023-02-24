@@ -1,4 +1,4 @@
-**By: Nathen Lee & Siddharth Vyasubuttu**
+**By: Nathen Lee & Siddharth Vyasabattu**
 # Introduction
 Our project will investigate the differences between the performances of League of Legends professional teams in 2022 on regional stages and international stages. Our research gives insight on how the performance of teams are influenced by the type of stage they are on. The dataset being used is a cleaned version of the data provided by https://oracleselixir.com/tools/downloads with rows and columns corresponding to our research focus. This dataset has 6548 total rows and 15 total columns. Each row in our dataset corresponds to a team's statistics in a certain game.  
 The columns correspond to those statistics:
