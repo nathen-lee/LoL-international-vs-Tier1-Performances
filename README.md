@@ -92,8 +92,10 @@ Before Permutation:
 After Permutation:
 <iframe src="assets/gtmissingperm.html" width=800 height=600 frameBorder=0></iframe>
 
-# Hypothesis
-Null hypothesis: There is no significant difference between the performance of teams on the international stage and their usual performance.
-Alternative hypothesis: The performance of teams on the international stage is worse than their usual performance.
-Test statistic: Mean performance values. We chose this because this hypothesis is one-directional and the variable being measured is continuous.
-Significance level: 0.05.
+# Hypothesis Testing
+<mark>Null hypothesis</mark>: There is no significant difference between the performance of teams on the international stage and their usual performance.
+<mark>Alternative hypothesis</mark>: The performance of teams on the international stage is worse than their usual performance.
+<mark>Test statistic</mark>: Mean performance values. We chose this because this hypothesis is one-directional and the variable being measured is continuous.
+<mark>Significance level</mark>: 0.05
+
+<iframe src="assets/hyptest.html" width=800 height=600 frameBorder=0></iframe>
