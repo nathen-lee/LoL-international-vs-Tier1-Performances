@@ -45,6 +45,7 @@ The histogram presented displays the probability distribution of performance bas
 The histogram presented shows the probability distribution of performance based on the game type, specifically, the stage they're playing on (regional or international). Based on the plot, we can infer that the likelihood of teams performing better on the regional stage is greater than that on the international stage.
 
 ## Interesting Aggregates
+
 | teamname           |   international |   regional |   international - regional |
 |:-------------------|----------------:|-----------:|---------------------------:|
 | DRX                |        148.75   |    133.522 |                   15.2285  |
