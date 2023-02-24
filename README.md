@@ -211,6 +211,8 @@ Using permutation tests, we examined the missingness in the 'performance' column
 - <mark>Test statistic</mark>: Mean performance values. We chose this because this hypothesis is one-directional and the variable being measured is continuous.
 - <mark>Significance level</mark>: 0.05
 - <mark>p-value</mark> = 0.02999
+These hypotheses are suitable for our research question as they allow us to test whether there is a statistically significant difference in team performance between regional and international stages. By setting up the null and alternative hypotheses in this way, we are able to statistically assess whether the observed differences in team performance are meaningful or simply due to chance.
 <iframe src="assets/hyptest.html" width=800 height=600 frameBorder=0></iframe>
 
+#### Conclusion
 The p-value we obtained for the hypothesis test is <0.05. Hence, we can successfully reject the null hypothesis and reject the claim of significant difference between performance of teams on the international stage and their regular performance.
