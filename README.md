@@ -37,11 +37,11 @@ As part of our project, we took several steps to clean and refine the data to ma
 | international | ESPORTSTMNT03_2701926 | MSI      | complete           | ORDER              |        0 |       9 |         0 |        0 |         0 |        0 |        3 |           149 |          875 |         49.1  |
 
 ## Univariate Analysis
-<iframe src="assets/univariate_hist.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/univariate.html" width=800 height=600 frameBorder=0></iframe>
 The histogram presented displays the probability distribution of performance based on the game type, specifically, the stage of play (regional or international). Based on the plot, we can deduce that the likelihood of teams performing better on the regional stage is greater than that on the international stage.
 
 ## Bivariate Analysis
-<iframe src="assets/bivariate_hist.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/bivariate.html" width=800 height=600 frameBorder=0></iframe>
 The histogram presented shows the probability distribution of performance based on the game type, specifically, the stage they're playing on (regional or international). Based on the plot, we can infer that the likelihood of teams performing better on the regional stage is greater than that on the international stage.
 
 ## Interesting Aggregates
@@ -76,6 +76,7 @@ To analyze the differences in team performance across regional and international
 
 # Assessment of Missingness
 ## NMAR Analysis
+We believe that the 'performance' column can be considered as not missing at random (NMAR) since it was generated using a formula that builds upon multiple columns, making 'performance' dependent on all of these columns.
 ## Missingness Dependency
 In this section, we will perform permutation tests on certain columns to determine if the missingness of performance is dependent on a that particular column.
 #### Datacompleteness Column
@@ -85,12 +86,22 @@ Before Permutation:
 After Permutation:
 <iframe src="assets/dcmissingperm.html" width=800 height=600 frameBorder=0></iframe>
 
+#### League Column
+Before Permutation:
+<iframe src="assets/lgmissing.html" width=800 height=600 frameBorder=0></iframe>
+
+After Permutation:
+<iframe src="assets/lgmissingperm.html" width=800 height=600 frameBorder=0></iframe>
+
 #### Gametype Column
 Before Permutation:
 <iframe src="assets/gtmissing.html" width=800 height=600 frameBorder=0></iframe>
 
 After Permutation:
 <iframe src="assets/gtmissingperm.html" width=800 height=600 frameBorder=0></iframe>
+
+#### Conclusions
+Using permutation tests, we examined the missingness in the 'performance' column using 'datacompleteness', 'league', and 'gametype' columns. The null hypothesis was that the missingness in the 'performance' column was independent of any other columns, whereas the alternative hypothesis proposed that missingness in the 'performance' column was dependent on other columns. We repeatedly simulated 100 column shuffles and obtained p-values of <0.05 for 'datacompleteness' and 'league', but >0.05 for 'gametype'. As a result, we rejected the null hypothesis for 'datacompleteness' and 'league' columns, but failed to do so for the 'gametype' column. This implies that the missingness in the 'performance' column is dependent on 'datacompleteness' and 'league' columns, but we could not reach a conclusion for the 'gametype' column.
 
 # Hypothesis Testing
 <mark>Null hypothesis</mark>: There is no significant difference between the performance of teams on the international stage and their usual performance.
