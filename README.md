@@ -16,3 +16,5 @@ The columns correspond to those statistics:
 - *towers* corresponds to the total number of towers the team destroyed over the course of the game.
 - *visionscore* corresponds to the total sum of the vision granted or denied by the players on the team. 
 - *creepscore* corresponds to the total sum of the minions and monsters killed by the players on the team.
+
+The question at hand: **Do teams perform differently depending on whether they are playing on a regional stage or on an international stage?**
