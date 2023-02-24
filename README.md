@@ -38,6 +38,8 @@ As part of our project, we took several steps to clean and refine the data to ma
 
 ## Univariate Analysis
 <iframe src="assets/univariate_hist.html" width=800 height=600 frameBorder=0></iframe>
+The histogram presented displays the probability distribution of performance based on the game type, specifically, the stage of play (regional or international). Based on the plot, we can deduce that the likelihood of teams performing better on the regional stage is greater than that on the international stage.
 
 ## Bivariate Analysis
 <iframe src="assets/bivariate_hist.html" width=800 height=600 frameBorder=0></iframe>
+The histogram presented shows the probability distribution of performance based on the game type, specifically, the stage they're playing on (regional or international). Based on the plot, we can infer that the likelihood of teams performing better on the regional stage is greater than that on the international stage.
