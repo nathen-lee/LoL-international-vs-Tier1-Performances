@@ -35,3 +35,6 @@ As part of our project, we took several steps to clean and refine the data to ma
 | international | ESPORTSTMNT03_2701916 | MSI      | complete           | Team Aze           |        0 |       2 |         2 |        0 |         1 |        0 |        2 |           162 |          858 |         55.88 |
 | international | ESPORTSTMNT03_2701916 | MSI      | complete           | DetonatioN FocusMe |        1 |      14 |         2 |        0 |         1 |        1 |        8 |           230 |          842 |        155.92 |
 | international | ESPORTSTMNT03_2701926 | MSI      | complete           | ORDER              |        0 |       9 |         0 |        0 |         0 |        0 |        3 |           149 |          875 |         49.1  |
+
+## Univariate Analysis
+<iframe src="assets/univariate_hist.html" width=800 height=600 frameBorder=0></iframe>
