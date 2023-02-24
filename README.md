@@ -70,4 +70,5 @@ The histogram presented shows the probability distribution of performance based 
 | Cloud9             |         66.995  |    138.358 |                  -71.3626  |
 | GAM Esports        |         85.245  |    156.643 |                  -71.3976  |
 | Team Aze           |         59.7883 |    140.571 |                  -80.7827  |
+
 To analyze the differences in team performance across regional and international stages, we got the data on only the teams that participated in both stages and created a pivot table. Using team names as the index and their performances in each stage as columns, we calculated the means using 'mean' as the aggregation function. Next, we added a new column by subtracting the mean performance value in the regional column from that in the international column (International vs Regional). This allowed us to compare the differences in the means of the performances for each team between the international and regional stages.
