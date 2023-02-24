@@ -1,2 +1,0 @@
-# yessirrrr
-lol
