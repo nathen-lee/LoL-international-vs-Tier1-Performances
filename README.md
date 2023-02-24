@@ -212,3 +212,5 @@ Using permutation tests, we examined the missingness in the 'performance' column
 - <mark>Significance level</mark>: 0.05
 - <mark>p-value</mark> = 0.02999
 <iframe src="assets/hyptest.html" width=800 height=600 frameBorder=0></iframe>
+
+The p-value we obtained for the hypothesis test is <0.05. Hence, we can successfully reject the null hypothesis and reject the claim of significant difference between performance of teams on the international stage and their regular performance.
