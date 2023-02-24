@@ -205,9 +205,9 @@ After Permutation:
 Using permutation tests, we examined the missingness in the 'performance' column using 'datacompleteness', 'league', and 'gametype' columns. The null hypothesis was that the missingness in the 'performance' column was independent of any other columns, whereas the alternative hypothesis proposed that missingness in the 'performance' column was dependent on other columns. We repeatedly simulated 100 column shuffles and obtained p-values of <0.05 for 'datacompleteness' and 'league', but >0.05 for 'gametype'. As a result, we rejected the null hypothesis for 'datacompleteness' and 'league' columns, but failed to do so for the 'gametype' column. This implies that the missingness in the 'performance' column is dependent on 'datacompleteness' and 'league' columns, but we could not reach a conclusion for the 'gametype' column.
 
 # Hypothesis Testing
-<mark>Null hypothesis</mark>: There is no significant difference between the performance of teams on the international stage and their usual performance.
-<mark>Alternative hypothesis</mark>: The performance of teams on the international stage is worse than their usual performance.
-<mark>Test statistic</mark>: Mean performance values. We chose this because this hypothesis is one-directional and the variable being measured is continuous.
-<mark>Significance level</mark>: 0.05
+- <mark>Null hypothesis</mark>: There is no significant difference between the performance of teams on the international stage and their usual performance.
+- <mark>Alternative hypothesis</mark>: The performance of teams on the international stage is worse than their usual performance.
+- <mark>Test statistic</mark>: Mean performance values. We chose this because this hypothesis is one-directional and the variable being measured is continuous.
+- <mark>Significance level</mark>: 0.05
 
 <iframe src="assets/hyptest.html" width=800 height=600 frameBorder=0></iframe>
